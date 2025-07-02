@@ -19,10 +19,7 @@ Chức năng **Routers** trong module **Network** cho phép định tuyến lưu
 - Bấm `Create`.
 
 ![Form tạo Router](../../step_images/routers/02_create_form.png)
-![Form đã điền](../../step_images/routers/03_filled_form.png)
 
-### 3. Router đã được tạo thành công
-![Tạo thành công](../../step_images/routers/04_created.png)
 
 ## Ghi chú
 - Có thể gán router cho một network để kết nối Internet.

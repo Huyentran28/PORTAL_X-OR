@@ -26,16 +26,6 @@ def do_instance_snapshots(page):
         page.wait_for_selector('input.MuiOutlinedInput-input', timeout=5000)
         page.screenshot(path="step_images/snapshots/02_create_form.png")
 
-        # Điền tên snapshot
-        page.fill('input.MuiOutlinedInput-input', "demo-snap")
-        page.wait_for_timeout(500)
-        page.screenshot(path="step_images/snapshots/03_filled_form.png")
-
-        # Bấm Create
-        page.click('div[role="dialog"] button:has-text("Create")', force=True)
-        page.wait_for_timeout(2000)
-        page.screenshot(path="step_images/snapshots/04_created.png")
-        print("✅ Đã thao tác và chụp ảnh xong Instance Snapshots")
         page.click('button[aria-label="close"]')
 
 

@@ -19,10 +19,7 @@ Chức năng **Roles** trong module **Identity** cho phép định nghĩa các v
 - Bấm `Create`.
 
 ![Form tạo Role](../../step_images/roles/02_create_form.png)
-![Form đã điền](../../step_images/roles/03_filled_form.png)
 
-### 3. Role được tạo thành công
-![Tạo thành công](../../step_images/roles/04_created.png)
 
 ## Đường dẫn thao tác
 `https://portal.stack-dev.x-or.cloud/identity/roles`

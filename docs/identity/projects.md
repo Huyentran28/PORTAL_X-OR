@@ -19,10 +19,7 @@ Chức năng **Projects** trong module **Identity** cho phép tạo các dự á
 - Bấm `Create`.
 
 ![Form tạo Project](../../step_images/projects/02_create_form.png)
-![Form đã điền](../../step_images/projects/03_filled_form.png)
 
-### 3. Project được tạo thành công
-![Tạo thành công](../../step_images/projects/04_created.png)
 
 ## Đường dẫn thao tác
 `https://portal.stack-dev.x-or.cloud/identity/projects`

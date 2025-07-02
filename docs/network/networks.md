@@ -20,10 +20,7 @@ Chức năng **Networks** trong module **Network** cho phép người dùng tạ
 - Bấm `Create`.
 
 ![Form tạo Network](../../step_images/networks/02_create_form.png)
-![Form đã điền](../../step_images/networks/03_filled_form.png)
 
-### 3. Network đã được tạo thành công
-![Tạo thành công](../../step_images/networks/04_created.png)
 
 ## Ghi chú
 - CIDR và Gateway IP cần không trùng với các mạng đang có.

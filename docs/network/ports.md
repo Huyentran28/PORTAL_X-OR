@@ -19,10 +19,6 @@ Chức năng **Ports** trong module **Network** cho phép tạo và quản lý c
 - Bấm `Create`.
 
 ![Form tạo Port](../../step_images/ports/02_create_form.png)
-![Form đã điền](../../step_images/ports/03_filled_form.png)
-
-### 3. Port đã được tạo thành công
-![Tạo thành công](../../step_images/ports/04_created.png)
 
 ## Ghi chú
 - Mỗi port đại diện cho một interface mạng.

@@ -18,7 +18,7 @@
             
 - Bấm `Allocate`.
 
-![Form cấp IP](../../step_images/floating_ips/02_allocate_form.png)
+![Form cấp IP](../../step_images/floating_ips/02_create_form.png)
 
 
 ### 3. Gán Floating IP vào Instance

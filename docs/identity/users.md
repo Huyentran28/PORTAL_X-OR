@@ -20,10 +20,7 @@ Chức năng **Users** trong module **Identity** cho phép tạo người dùng 
 - Bấm `Create`.
 
 ![Form tạo User](../../step_images/users/02_create_form.png)
-![Form đã điền](../../step_images/users/03_filled_form.png)
 
-### 3. User được tạo thành công
-![Tạo thành công](../../step_images/users/04_created.png)
 
 ## Đường dẫn thao tác
 `https://portal.stack-dev.x-or.cloud/identity/users`

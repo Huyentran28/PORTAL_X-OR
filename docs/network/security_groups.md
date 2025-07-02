@@ -15,15 +15,13 @@
 - Nhấn `Create Security Group`.
 - Nhập tên, mô tả → Bấm `Create`.
 
-![Tạo nhóm bảo mật](../../step_images/security_groups/02_create_group.png)
+![Tạo nhóm bảo mật](../../step_images/security_groups/02_create_form.png)
 
 ### 3. Thêm luật cho Security Group
 - Click vào Security Group → Tab `Rules`.
 - Nhấn `Add Rule` → Chọn loại:
   - Ví dụ: **Ingress - TCP - 22 - 0.0.0.0/0** (cho phép SSH)
 - Bấm `Add`.
-
-![Thêm rule](../../step_images/security_groups/03_add_rule.png)
 
 ## Ghi chú
 - Cần mở đúng cổng để máy ảo có thể SSH, HTTP hoặc HTTPS.

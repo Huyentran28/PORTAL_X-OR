@@ -1,16 +1,23 @@
 import os
 
 def do_snapshots(page):
-    print("🟠 Đang chụp ảnh màn hình Snapshots")
+    print("🟢 Thao tác Snapshots")
     os.makedirs("step_images/snapshots", exist_ok=True)
 
     try:
-        # Đợi đến khi chữ Snapshots xuất hiện trên trang (không cần h1)
-        page.wait_for_selector(":text('Snapshots')", timeout=10000)
+        # Click menu "Storage"
+        # print("👉 Click vào menu Storage")
+        # page.click("span:has-text('Storage')")
+        page.wait_for_timeout(1000)
 
-        # Chụp ảnh màn hình
+        # Click menu "Snapshots"
+        print("👉 Click vào menu Snapshots")
+        page.click("span:has-text('Snapshots')")
+        page.wait_for_timeout(2000)
+        print("✅ Đã mở trang Snapshots")
+
+        # Chụp ảnh danh sách Snapshots
         page.screenshot(path="step_images/snapshots/01_snapshots_list.png")
-        print("✅ Đã chụp ảnh danh sách Snapshots")
 
     except Exception as e:
-        print("❌ Lỗi thao tác Snapshots:", e)
+        print("❌ Lỗi trong thao tác Snapshots:", e)

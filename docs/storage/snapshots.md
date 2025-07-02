@@ -9,7 +9,7 @@ Chức năng **Snapshots** trong module **Storage** cho phép người dùng t�
 - Từ menu chính chọn `Storage > Snapshots`.
 - Giao diện sẽ hiển thị danh sách snapshot đang có.
 
-![Danh sách Snapshots](../../step_images/snapshots/01_snapshots_list.png)
+![Danh sách Snapshots](../../step_images/snapshots/03_snapshots_list.png)
 
 ## Lưu ý
 - Snapshot chỉ tạo được khi volume không bị lock hoặc đang ở trạng thái phù hợp.
